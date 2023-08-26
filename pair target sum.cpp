@@ -15,7 +15,6 @@ int main(){
 	
 	for(int i=0;i<n-1;i++){
 		for(int j=i+1;j<n;j++){
-			a[i]+a[j];
 			if(a[i]+a[j]==k){
 				cout<<"there exist numbers that add up to form k at index : "<<i<<" and "<<j;
 			}
